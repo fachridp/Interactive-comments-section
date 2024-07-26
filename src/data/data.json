@@ -1,0 +1,92 @@
+{
+  "currentUser": {
+    "image": { 
+      "png": "assets/images/image-juliusomo.png",
+      "webp": "assets/images/image-juliusomo.webp"
+    },
+    "username": "juliusomo",
+    "contents": []
+  },
+  "comments": [
+    {
+      "id": 1,
+      "content": "Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.",
+      "createdAt": "20 Jun 24, 9:05 AM",
+      "score": 12,
+      "replyStatus": true,
+      "user": {
+        "image": { 
+          "png": "assets/images/image-amyrobson.png",
+          "webp": "assets/images/image-amyrobson.webp"
+        },
+        "username": "amyrobson"
+      },
+      "replies": []
+    },
+    {
+      "id": 2,
+      "content": "Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!",
+      "createdAt": "6 Jul 24, 9:05 AM",
+      "score": 5,
+      "replyStatus": true,
+      "user": {
+        "image": { 
+          "png": "assets/images/image-maxblagun.png",
+          "webp": "assets/images/image-maxblagun.webp"
+        },
+        "username": "maxblagun"
+      },
+      "replies": [
+        {
+          "id": 3,
+          "content": "If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.",
+          "createdAt": "13 Jul 24, 9:05 AM",
+          "score": 4,
+          "replyingTo": "maxblagun",
+          "actions": [],
+          "replyStatus": true,
+          "user": {
+            "image": { 
+              "png": "assets/images/image-ramsesmiron.png",
+              "webp": "assets/images/image-ramsesmiron.webp"
+            },
+            "username": "ramsesmiron"
+          },
+          "repliesChild": [
+            {
+              "id": 4,
+              "content": "I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.",
+              "createdAt": "18 Jul 24, 9:05 AM",
+              "score": 2,
+              "replyingTo": "ramsesmiron",
+              "statusUser": "you",
+              "repliesChild": [],
+              "actions": [
+                {
+                  "id": 5,
+                  "type": "Delete",
+                  "icon": "assets/icons/icon-delete.svg",
+                  "textColor": "text-soft-red"
+                },
+                {
+                  "id": 6,
+                  "type": "Edit",
+                  "icon": "assets/icons/icon-edit.svg",
+                  "textColor": "text-moderate-blue"
+                }
+              ],
+              "replyStatus": false,
+              "user": {
+                "image": { 
+                  "png": "assets/images/image-juliusomo.png",
+                  "webp": "assets/images/image-juliusomo.webp"
+                },
+                "username": "juliusomo"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

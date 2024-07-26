@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ font-family: "Rubik", sans-serif;
+ background-color: hsl(223, 19%, 93%);
+}
+
+@layer utilities {
+ max-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+ }
+
+ .svg-container img:hover {
+  filter: brightness(0) saturate(100%) invert(35%) sepia(9%) saturate(5494%) hue-rotate(207deg) brightness(93%) contrast(88%);
+ }
+}
